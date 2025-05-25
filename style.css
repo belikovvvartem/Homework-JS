@@ -97,12 +97,6 @@ button:hover {
   color: white;
 }
 
-.active {
-  background: #3772FF;
-  color: white;
-  font-weight: bold;
-}
-
 .task {
   background: #ffdc5e;
   color: rgb(0, 0, 0);
@@ -112,6 +106,12 @@ button:hover {
 .task:hover {
   background: #fcc500;
   color: black;
+}
+
+.active {
+  background: #3772FF;
+  color: white;
+  font-weight: bold;
 }
 
 .checked {
