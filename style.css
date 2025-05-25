@@ -156,7 +156,9 @@ button:hover {
 
 #taskDisplay {
   margin-top: 25px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
 }
 
 iframe {
@@ -167,17 +169,6 @@ iframe {
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 canvas {
   position: fixed;
