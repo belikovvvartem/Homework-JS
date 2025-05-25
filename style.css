@@ -1,0 +1,189 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f2f5;
+}
+
+.container {
+  margin: 0 auto;
+  position: relative;
+  padding: 10px;
+  width: 1200px;
+  min-height: 465px;
+  background: rgba( 0, 0, 0, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  background: lime;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+button {
+  height: 50px;
+  border-radius: 50px;
+  background: lime;
+  border: none;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 10px 25px;
+}
+
+button:hover {
+  background: rgb(116, 250, 116);
+}
+
+.top-left {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  align-items: center;
+  padding: 5px 50px;
+  border-bottom: 3px dashed grey;
+  box-sizing: border-box;
+}
+
+#monthSelect {
+  width: 200px;
+  height: 50px;
+  padding: 0 15px;
+  border: none;
+  border-radius: 50px;
+  background: lime;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  color: #777;
+  font-weight: bold;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.day {
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+  user-select: none;
+}
+
+.day:hover {
+  background: #70e4ef9b;
+  color: white;
+}
+
+.active {
+  background: #3772FF;
+  color: white;
+  font-weight: bold;
+}
+
+.task {
+  background: #ffdc5e;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.task:hover {
+  background: #fcc500;
+  color: black;
+}
+
+.checked {
+  background: lime;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.checked:hover {
+  background: rgba(82, 246, 82, 0.691);
+  color: black;
+}
+
+.no-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px dashed red;
+  border-radius: 50px;
+  background: rgba(227, 139, 139, 0.719);
+  width: 60%;
+  height: 50px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  animation: noTask 3s linear infinite;
+}
+
+@keyframes noTask {
+  0% {
+    background: rgba(227, 139, 139, 0.719);
+  }
+  50% {
+    background: rgb(255, 0, 0);
+    border: 5px dashed black;
+  }
+  100% {
+    background: rgba(227, 139, 139, 0.719);
+  }
+}
+
+#taskDisplay {
+  margin-top: 25px;
+  text-align: center;
+}
+
+iframe {
+  width: 80%;
+  height: 400px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0; 
+  pointer-events: none; 
+  
+}
