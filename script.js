@@ -2,7 +2,7 @@ const taskData = {
   "2025-05-23": "https://codepen.io/pqendosf-the-decoder/embed/GgJRGER?default-tab=html%2Cresult",
   "2025-05-24": "https://codepen.io/pqendosf-the-decoder/embed/KwpKeyq?default-tab=js%2Cresult",
   "2025-05-26": "https://codepen.io/pqendosf-the-decoder/embed/vEOLBBe?default-tab=js%2Cresult",
-  "2025-05-24": "https://codepen.io/pqendosf-the-decoder/embed/YPXwKZe?default-tab=js%2Cresult"
+  "2025-05-27": "https://codepen.io/pqendosf-the-decoder/embed/YPXwKZe?default-tab=js%2Cresult"
 };
 
 const monthSelect = document.getElementById("monthSelect");
