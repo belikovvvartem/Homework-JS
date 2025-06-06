@@ -207,4 +207,3 @@ function setupCanvas() {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 }
-console.log("hello")
