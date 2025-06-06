@@ -2,8 +2,14 @@ const taskData = {
   "2025-05-23": "https://codepen.io/pqendosf-the-decoder/embed/GgJRGER?default-tab=html%2Cresult",
   "2025-05-24": "https://codepen.io/pqendosf-the-decoder/embed/KwpKeyq?default-tab=js%2Cresult",
   "2025-05-26": "https://codepen.io/pqendosf-the-decoder/embed/vEOLBBe?default-tab=js%2Cresult",
-  "2025-05-27": "https://codepen.io/pqendosf-the-decoder/embed/YPXwKZe?default-tab=js%2Cresult"
+  "2025-05-27": "https://codepen.io/pqendosf-the-decoder/embed/YPXwKZe?default-tab=js%2Cresult",
+  "2025-06-01": "https://codepen.io/pqendosf-the-decoder/embed/gbpWJKJ?default-tab=js%2Cresult",
+  "2025-06-02": "https://codepen.io/pqendosf-the-decoder/embed/wBadbbK?default-tab=js%2Cresult",
+  "2025-06-03": "https://codepen.io/pqendosf-the-decoder/embed/RNPVzPX?default-tab=js%2Cresult",
+  "2025-06-04": "https://codepen.io/pqendosf-the-decoder/embed/emNWwEK?default-tab=js%2Cresult",
+  "2025-06-05": "https://codepen.io/pqendosf-the-decoder/embed/NPqjZzv?default-tab=js%2Cresult"
 };
+
 
 const monthSelect = document.getElementById("monthSelect");
 const calendar = document.getElementById("calendar");
