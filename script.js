@@ -208,3 +208,8 @@ function setupCanvas() {
   canvas.height = window.innerHeight;
 }
 
+function autoUpdateCalendar() {
+  renderCalendar(parseInt(monthSelect.value));
+}
+
+setInterval(autoUpdateCalendar, 10000);
