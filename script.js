@@ -7,7 +7,8 @@ const taskData = {
   "2025-06-02": "https://codepen.io/pqendosf-the-decoder/embed/wBadbbK?default-tab=js%2Cresult",
   "2025-06-03": "https://codepen.io/pqendosf-the-decoder/embed/RNPVzPX?default-tab=js%2Cresult",
   "2025-06-04": "https://codepen.io/pqendosf-the-decoder/embed/emNWwEK?default-tab=js%2Cresult",
-  "2025-06-05": "https://codepen.io/pqendosf-the-decoder/embed/NPqjZzv?default-tab=js%2Cresult"
+  "2025-06-05": "https://codepen.io/pqendosf-the-decoder/embed/NPqjZzv?default-tab=js%2Cresult",
+  "2025-06-12": "https://codepen.io/pqendosf-the-decoder/embed/QwbzGja?default-tab=js%2Cresult"
 };
 
 
